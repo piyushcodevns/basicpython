@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .q {
+            border-style: solid;
+            border-color: white;
+            border-width: 5px;
+        }
+
+        .row1 {
+            background-color: lightskyblue;
+        }
+
+        .rowo {
+            background-color: lightsalmon;
+        }
+
+        .i {
+            background-color: lightgray;
+            padding: 3px;
+            width: 33px;
+            margin-right: 100 px;
+        }
+
+        .ii {
+            background-color: lightgray;
+            padding: 3px;
+            font-family: cursive;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 q" style="background-color: lightsalmon; font-family: cursive;">
+                Header
+            </div>
+        </div>
+
+        <div class="row q rowo">
+            <div class="col-lg-4 col-md-12" style="background-color: lightsalmon; font-family: cursive;">
+                Nav
+            </div>
+            <div class="col-lg-2 col-md-3 col-6 i"></div>
+            <div class="col-lg-2 col-md-3 col-6 i"></div>
+            <div class="col-lg-2 col-md-3 col-6 i"></div>
+            <div class="col-lg-2 col-md-3 col-6 i"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 col-md-12 q" style="background-color: lightskyblue; font-family: cursive;">
+                Article
+                <div class="row row1">
+                    <div class="col-12 ii">Section 1</div>
+                </div>
+                <div class="row row1">
+                    <div class="col-12 ii">Section 2</div>
+                </div>
+                <div class="row row1">
+                    <div class="col-12 ii">Section 3</div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12 q" style="background-color: grey; font-family: cursive;">
+                Aside
+                <div class="row">
+                    <div class="col-12 ii">Section 1</div>
+                </div>
+                <div class="row">
+                    <div class="col-12 ii">Section 2</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 q" style="background-color: lightsalmon; font-family: cursive;">
+                Footer
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

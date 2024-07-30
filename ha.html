@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+    function removeSpinner() {
+      var spinner = document.getElementById("spinner-icon");
+      if (spinner) {
+        document.getElementById("img").style.display="block";
+        spinner.remove();
+
+      }
+    }
+    setTimeout(removeSpinner, 5000);
+  </script>
+</head>
+
+<body>
+
+  <div class="w3-container">
+    <h1>Spinning Elements</h1>
+    <p><i id="spinner-icon" class="fa fa-spinner w3-spin" style="font-size:64px"></i></p>
+    <img id="img" style="display: none;" src="pics/0.jpg" width="100px" height="100px">
+  </div>
+
+</body>
+
+</html>
