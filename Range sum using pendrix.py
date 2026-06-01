@@ -8,7 +8,6 @@ total=0
 for num in arr:
     total+=num
     prefix.append(total)
-
 if left==0:
     print(prefix[right])
 else:
