@@ -1,4 +1,4 @@
-arr = [7, 4, 5, 2, 9]
+arr = [7, 4, 5, 2, 9, -2]
 n=len(arr)
 for i in range(1, n):
     key = arr[i]
